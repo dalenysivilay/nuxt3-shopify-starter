@@ -1,5 +1,12 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxty",
+  "description": "Nuxt 3 Supercharged Starter ☘️⚡️",
+  "version": "0.0.1",
+  "author": "dalenysivilay <hi@daleny.dev>",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "pnpm@8.14.0",
   "private": true,
   "type": "module",
   "scripts": {
