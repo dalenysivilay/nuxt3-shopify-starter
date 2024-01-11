@@ -1,4 +1,4 @@
-import apollo from './config/apollo'
+import apollo from './apollo/apollo'
 
 export default defineNuxtConfig({
   modules: [
