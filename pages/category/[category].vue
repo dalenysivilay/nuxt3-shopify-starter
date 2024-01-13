@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <div>Home Page</div>
+  <div>Category Page</div>
 </template>
