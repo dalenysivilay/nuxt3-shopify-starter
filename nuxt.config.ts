@@ -9,5 +9,9 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
   ],
   apollo,
+  typescript: {
+    typeCheck: true,
+    strict: true,
+  },
   devtools: { enabled: true },
 })

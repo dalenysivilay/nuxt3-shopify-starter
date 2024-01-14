@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import getProductByIdQuery from '~/apollo/queries/getProductById'
-import type { Product } from '~/types/Product'
+import type { Product } from '~/types/product'
 
 const productData = ref<Product | null>(null)
 
