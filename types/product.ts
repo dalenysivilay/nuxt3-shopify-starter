@@ -1,9 +1,4 @@
-export interface RootObject {
-  product: Product
-}
-
 export interface Product {
-  __typename: string
   availableForSale: boolean
   compareAtPriceRange: CompareAtPriceRange
   description: string
@@ -13,12 +8,12 @@ export interface Product {
   images: Images
   isGiftCard: boolean
   priceRange: CompareAtPriceRange
-  seo: Seo
-  variants: Variants
+  seo?: Seo
+  title: string
+  variants?: Variants
 }
 
 interface Variants {
-  __typename: string
   edges: Edge2[]
 }
 
@@ -40,7 +35,7 @@ interface Node2 {
 interface Seo {
   __typename: string
   description: string
-  title?: any
+  title: string
 }
 
 interface Images {

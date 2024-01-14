@@ -1,5 +1,5 @@
-export const getProductByIdQuery = gql`
-  query getProductById($id: ID!) {
+export const getProductByHandleQuery = gql`
+  query getProductByHandle($id: ID!) {
     product(id: $id) {
       availableForSale
       compareAtPriceRange {
@@ -59,4 +59,4 @@ export const getProductByIdQuery = gql`
   }
 `
 
-export default getProductByIdQuery
+export default getProductByHandleQuery
