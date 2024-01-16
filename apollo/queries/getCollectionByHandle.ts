@@ -1,5 +1,5 @@
 export const getCollectionByHandleQuery = gql`
-  getCollectionByHandleQuery($handle: String!, $sortKey String!) {
+  getCollectionByHandleQuery($handle: String!, $sortKey: String!) {
     collection(handle: $handle) {
       description
       handle

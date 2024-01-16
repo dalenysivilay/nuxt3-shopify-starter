@@ -10,7 +10,6 @@ export default defineNuxtConfig({
   ],
   apollo,
   typescript: {
-    typeCheck: true,
     strict: true,
   },
   devtools: { enabled: true },

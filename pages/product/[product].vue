@@ -26,4 +26,3 @@ productData.value = product
 <template>
   <div>Product Page</div>
 </template>
-~/apollo/queries/getProductByHandle

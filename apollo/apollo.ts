@@ -1,5 +1,5 @@
 import type { ModuleOptions } from '@nuxtjs/apollo'
-import processEnv from '../utils/processEnv'
+import processEnv from '~/utils/processEnv'
 
 function shopifyConfig() {
   const baseUrl = processEnv('SHOPIFY_BASE_URL')

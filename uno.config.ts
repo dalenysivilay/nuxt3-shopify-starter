@@ -10,12 +10,11 @@ import {
 } from 'unocss'
 
 export default defineConfig({
-  shortcuts: [
-    // ...
-  ],
   theme: {
     colors: {
-      // ...
+      brand: {
+        primary: '',
+      },
     },
   },
   presets: [
