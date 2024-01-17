@@ -4,6 +4,7 @@
 
 - [Nuxt 3 ☘️](https://nuxt.com/docs/getting-started/introduction) Framework.
 - [Shopify Storefront API 🛒]() E-Commerce Platform.
+- [TailwindCSS 🎨]() Styling.
 - [Apollo 🚀]() GraphQL Client.
 - [Vite ⚡️]() Build Tool.
 - [TypeScript ⌨️]() Type Safety.

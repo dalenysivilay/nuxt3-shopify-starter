@@ -6,8 +6,8 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/apollo',
-    '@unocss/nuxt',
     '@nuxt/ui',
+    '@nuxtjs/tailwindcss',
   ],
   apollo,
   typescript: {
