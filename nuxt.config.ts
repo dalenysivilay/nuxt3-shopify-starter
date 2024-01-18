@@ -8,25 +8,15 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/apollo',
-    '@nuxt/ui',
     '@nuxtjs/tailwindcss',
   ],
   apollo,
+  tailwindcss: {
+    viewer: { endpoint: '/tailwind', exportViewer: true },
+  },
   typescript: {
     strict: true,
   },
-  hooks: {
-    'pages:extend': function (pages: NuxtPage[]) {
-      ignoreComponentsDirHook(pages)
-    },
-  },
-  components: [
-    '~/components',
-    {
-      path: '~/pages',
-      pattern: '*/components/**',
-      pathPrefix: false,
-    },
-  ],
+
   devtools: { enabled: true },
 })
