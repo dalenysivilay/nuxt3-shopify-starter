@@ -1,6 +1,4 @@
-import type { NuxtPage } from 'nuxt/schema'
 import apollo from './apollo/apollo'
-import ignoreComponentsDirHook from './utils/ignoreComponentsDirHook'
 
 export default defineNuxtConfig({
   modules: [
